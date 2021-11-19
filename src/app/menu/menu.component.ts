@@ -9,7 +9,7 @@ import { HardCodedAuthService } from '../service/hard-coded-auth.service';
 })
 export class MenuComponent implements OnInit {
 
-  constructor(public hardCodedAuthService : BasicAuthService) { }
+  constructor(public basicAuthService : BasicAuthService) { }
 
   ngOnInit(): void {
   }
